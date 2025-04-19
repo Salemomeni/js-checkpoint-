@@ -1,7 +1,7 @@
 // for reversing a string.
 import { reversedString , countString, Capfirst } from "./stringManipulation.js";
 import { MaxandMin, sumOfArr , filterArray } from "./mathimaticalFunction.js";
-import { factorial , prime } from "./arrayFunction.js";
+import { factorial , prime , fibonacci } from "./arrayFunction.js";
 let reverse = reversedString("salem");
 console.log(reverse);
 // for counting strings 
@@ -28,4 +28,7 @@ console.log(fact);
 let primeNumber = prime(4);
 console.log(primeNumber);
 
+//  generate the Fibonacci sequence up to a given number of terms
 
+let x = fibonacci([1]);
+console.log(x);
